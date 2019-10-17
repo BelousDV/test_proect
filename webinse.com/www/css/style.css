@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+	max-width: 1020px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    border-top: 6px solid #333;
+    border-bottom: 6px solid #333;
+	background: linear-gradient( to bottom, #dad2c6 37%, #c56f0c 63%);
+}
+.container{
+	max-width: 960px;
+    min-height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+.header__text{
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.header__logo{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.tablelist__innet{
+    min-width: 700px;
+    margin: 15px auto;
+    padding-bottom: 15px; 
+    background-color: #dad2c6;
+}
+.tablelist__title{
+    background-color: #4775B1;
+    border: 1px solid #315589;
+    padding: 13px 18px 13px 16px;
+    line-height: 12px;
+}
+.tablelist__wrapp-input{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.tablelist__input{
+    width: 25%;
+}
+.task__title-text{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif; 
+    color: #fff;
+    font-weight: 400;
+    padding: 5px 0;
+    margin-left: 10px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.tablelist__create{
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: #D2D2D2;
+    min-width: 700px;
+    padding: 10px 12px 10px 16px;
+    border: 1px solid #AAAAAA;
+    display: flex;
+    justify-content: space-between;
+    max-height: 50px;
+}
+.tablelist__create-add{
+    min-width: 150px;
+    background-color: #8FC6A8;
+    border: 1px solid #707070;
+    border-radius: 0 4px 4px 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 24px;
+}
+table{
+    border: none;
+    border-collapse: unset;
+}
+table.persons__list{
+    font-family: 'Times New Roman', Times, serif; 
+    width: 100%;
+    min-width: 700px;
+    min-height: 50px;
+    margin: 0;
+    position: relative;
+}
+.persons__list-header{
+    line-height: 30px;
+    font-weight: 700;
+}
+.person__list-text{
+    margin: 0 10px 0 15px;
+    padding: 18px 12px 18px 1px;
+    width: 400px;
+    font-size: 16px;
+    color: #333;
+    line-height: 18px;
+    outline: none;
+}
+.person__list-correct{
+    width: 800px;
+    min-width: 400px;
+    padding: 50px;
+    background-color: #4775B1;
+    opacity: .9;
+    border-radius: 8px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.person__list-correct input{
+    min-height: 25px;
+    margin: 5px 4px;
+    padding: 0 5px;
+}
+.persons__table-list{
+    font-size: 16px;
+    font-weight: 700;
+}
+.person__list-delete,
+.person__list-remove{
+    padding-right: 8px;
+    border: 1px solid #CCCCCC;
+    background-color: #4775B1;
+    border-radius: 5px;
+    width:80px;
+}
+
+
+
